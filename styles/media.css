@@ -1,0 +1,225 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+    .main-image {
+        width: 600px;
+        left: calc(100% - 550px);
+        top: -50px;
+    }
+    .menu-item a {
+        font-size: 14px;
+    }
+    .menu-item {
+        margin-right: 60px;
+    }
+    .main-content {
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+    .main-title {
+        font-size: 100px;
+        line-height: 115%;
+    }
+    .main-text {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 50px;
+    }
+    .common-title {
+        font-size: 50px;
+    }
+    .why {
+        background-size: contain;
+        padding-bottom: 80px;
+    }
+    .why-items {
+        margin-top: 40px;
+        gap: 20px;
+        grid-template-columns: repeat(3, 286px);
+    }
+    .products-items {
+        gap: 15px; 
+    }
+    .products {
+        padding-bottom: 70px;
+        background-size: 1200px;
+    }
+    .order {
+        padding-bottom: 0;
+    }
+    .order-form {
+        margin-left: 470px;
+    }
+    .order-image {
+        right: calc(100% - 543px);
+        width: 800px;
+        top: 100px;
+    }
+}    
+@media (max-width: 991px) {
+    .container {
+        max-width: 700px;
+    }
+    .header {
+        padding: 20px 0;
+    }
+    .menu {
+        margin-left: 70px;
+    }
+    .menu-item {
+        margin-right: 40px;
+        margin-right: 33px;
+    }
+    .main-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .main-image {
+        width: 550px;
+        left: calc(100% - 470px);
+        top: -100px;
+    }
+    .main-title {
+        font-size: 80px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .main-text {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+    .why {
+        padding-bottom: 40px;
+    }
+    .why-items {
+        margin-top: 20px;
+        gap: 30px;
+        grid-template-columns: repeat(1, 300px);
+    }
+    .common-title {
+        font-size: 40px;
+    }
+    .why-item-title {
+        padding: 10px 0;
+    }
+    .products-items {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 340px));
+    }
+    .order-image {
+        display: none;
+    }
+    .order-form {
+        margin: auto;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        max-width: 520px;
+    }
+    .logo {
+        width: 100px;
+    }
+    .logo img {
+        width: 100%;
+    }
+    .menu {
+        margin-left: 20px;
+    }
+    .menu-item {
+        margin-right: 40px;
+        margin-right: 25px;
+    }
+    .menu-item a {
+        font-size: 12px;
+    }
+    .main-image {
+        width: 400px;
+        left: calc(100% - 352px);
+        top: -70px;
+    }
+    .main-title {
+        font-size: 60px;
+    }
+    .common-title {
+        font-size: 30px;
+    }
+    .products-items {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 575px) {
+    .container {
+        max-width: 310px;
+    }
+    .header .container {
+        flex-direction: column;
+    }
+    .menu {
+        margin: 20px 0;
+    }
+    .menu-item {
+        margin-right: 10px;
+    }
+    .menu-item a {
+        font-size: 11px;
+    }
+    .main-content {
+        text-align: center;
+    }
+    .main-small-info {
+        font-size: 11px;
+        position: absolute;
+        top: -50px;
+        left: 10px;
+    }
+    .main-title {
+        font-size: 33px;
+        margin-bottom: 200px;
+    }
+    .currency {
+        margin-left: 215px;
+    }
+    .main-content {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+    .main-image {
+        left: calc(100% - 370px);
+        top: -10px;
+    }
+    .main-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .button {
+        margin: 0 auto;
+    }
+    .common-title {
+        font-size: 20px;
+    }
+    .why-item-title {
+        font-size: 20px;
+    }
+    .why-item-text {
+        font-size: 14px;
+        line-height: 130%;
+    }
+    .order-form {
+        max-width: 310px;
+        padding: 30px 4px;
+    }
+    .order-form-text {
+        font-size: 18px;
+    }
+    .order-form-input {
+        width: 300px;
+    }
+    .order-form-input input {
+        width: 298px;
+    }
+    .order-form-inputs .button {
+        width: 300px;
+    }
+}
